@@ -1,0 +1,17 @@
+export const DRIFT_IGNORE_THRESHOLD_MS = 80;
+export const DRIFT_SEEK_THRESHOLD_MS = 1500;
+export const RATE_ADJUST_SLOW = 0.95;
+export const RATE_ADJUST_FAST = 1.05;
+export const RATE_NORMAL = 1.0;
+export const SCHEDULE_LEAD_TIME_MS = 150;
+export const NTP_SYNC_INTERVAL_MS = 5000;
+export const DRIFT_CHECK_INTERVAL_MS = 500;
+export const PING_INTERVAL_MS = 10000;
+export const RECONNECT_GRACE_PERIOD_MS = 30000;
+export const ROOM_TTL_MS = 3600000;
+export const MAX_ROOM_PARTICIPANTS = 50;
+export const MAX_CHAT_HISTORY = 200;
+export const RATE_LIMIT_ACTIONS_PER_SECOND = 15;
+export const DEFAULT_ROOM_CODE_LENGTH = 6;
+export const HEATMAP_BUCKET_SECONDS = 5;
+export const BUFFERING_WAIT_TIMEOUT_MS = 5000;
